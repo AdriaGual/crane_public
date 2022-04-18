@@ -40,7 +40,7 @@ Las claves de API no están incluidas en el proyecto por motivos de seguridad, a
 
 ### TomTom API
 
-Las claves de TomTomAPI se pueden añadir al fichero [TomTomAPI.js](https://github.com/AdriaGual/crane/blob/master/src/routes/TomTomAPI.js) (se habla en plural porqué el código acepta múltiples, pero con una clave sirve).
+Las claves de TomTomAPI se pueden añadir al fichero [TomTomAPI.js](https://github.com/AdriaGual/crane_public/blob/master/src/routes/TomTomAPI.js) (se habla en plural porqué el código acepta múltiples, pero con una clave sirve).
 
 ```javascript
 import axios from "axios";
@@ -52,7 +52,7 @@ const TomTomAPIKey = ["Añadir aquí"];
 
 ### Firebase API
 
-Para poder compartir planes con amigos, se ha usado el servicio de Firebase, [Cloud Firestore](https://firebase.google.com/products/firestore?gclid=EAIaIQobChMIk6L8wdqV9wIVB5BoCR1jDQdGEAAYASAAEgKOXfD_BwE&gclsrc=aw.ds), la configuración se añade [aquí](https://github.com/AdriaGual/crane/blob/master/src/routes/FirebaseConfig.js):
+Para poder compartir planes con amigos, se ha usado el servicio de Firebase, [Cloud Firestore](https://firebase.google.com/products/firestore?gclid=EAIaIQobChMIk6L8wdqV9wIVB5BoCR1jDQdGEAAYASAAEgKOXfD_BwE&gclsrc=aw.ds), la configuración se añade [aquí](https://github.com/AdriaGual/crane_public/blob/master/src/routes/FirebaseConfig.js):
 
 ```javascript
 const firebaseConfig = {
@@ -68,7 +68,7 @@ const firebaseConfig = {
 
 ### Maps SDK Android
 
-Esta clave sólo es necesaria para cuando se cree el bundle de android, se añade en el [app.json](https://github.com/AdriaGual/crane/blob/master/app.json).
+Esta clave sólo es necesaria para cuando se cree el bundle de android, se añade en el [app.json](https://github.com/AdriaGual/crane_public/blob/master/app.json).
 
 ```json
 "android": {
