@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "crane",
+    "scheme": "crane",
+    "slug": "crane",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon_crane.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E76472"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.adriagual.crane",
+      "buildNumber": "1.2.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon_crane.png",
+        "backgroundColor": "#E76472"
+      },
+      "package": "com.adriagual.crane",
+      "versionCode": 9,
+      "config": {
+        "googleMaps": {
+          "apiKey": ""
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
